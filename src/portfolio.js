@@ -259,19 +259,19 @@ const workExperiences = {
         "Implemented web APIs to improve performance for payment systems"
       ]
     },
-    // {
-    //   role: "Software Engineer",
-    //   company: "DXC Technology",
-    //   companylogo: require("./assets/images/DXC.webp"),
-    //   date: "Feb 2012 – Feb 2015",
-    //   website: "https://dxc.com/vn/en",
-    //   desc: "DXC Technology is a leading global provider of information technology services",
-    //   descBullets: [
-    //     "Estimated task requirements, delivered assignments on time, and resolved software defects to improve system stability",
-    //     "Implemented WCF services for financial reports",
-    //     "Built applications and reports"
-    //   ]
-    // },
+    {
+      role: "Software Engineer",
+      company: "DXC Technology",
+      companylogo: require("./assets/images/DXC.webp"),
+      date: "Feb 2012 – Feb 2015",
+      website: "https://dxc.com/vn/en",
+      desc: "DXC Technology is a leading global provider of information technology services",
+      descBullets: [
+        "Estimated task requirements, delivered assignments on time, and resolved software defects to improve system stability",
+        "Implemented WCF services for financial reports",
+        "Built applications and reports"
+      ]
+    },
     // {
     //   role: "Software Engineer",
     //   company: "Delivery VN",
