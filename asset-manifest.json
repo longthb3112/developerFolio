@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.12eff667.css",
+    "main.js": "/static/js/main.1f09975e.js",
+    "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.9b5142ca.chunk.js": "/static/js/769.9b5142ca.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/azure-developer-associate.png": "/static/media/azure-developer-associate.895872185cce6337b1c5.png",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/Walmart_logo.jpg": "/static/media/Walmart_logo.bace0d1b0030561d0ecd.jpg",
+    "static/media/deliv_logo.jpg": "/static/media/deliv_logo.c0fab86a74c0a8565fb8.jpg",
+    "static/media/sharepoint.png": "/static/media/sharepoint.fe03ea8e881b99fc4a20.png",
+    "static/media/maharishi_international_university_logo.jpg": "/static/media/maharishi_international_university_logo.0e8d7c61699ebdfe6323.jpg",
+    "static/media/DXC.webp": "/static/media/DXC.05a8d83637644c60f0af.webp",
+    "static/media/sitecore.jpg": "/static/media/sitecore.13081973c3924de7b91b.jpg",
+    "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/saayaHealthLogo.webp": "/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
+    "static/media/nextuLogo.webp": "/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
+    "index.html": "/index.html",
+    "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.12eff667.css.map": "/static/css/main.12eff667.css.map",
+    "main.1f09975e.js.map": "/static/js/main.1f09975e.js.map",
+    "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
+    "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
+    "769.9b5142ca.chunk.js.map": "/static/js/769.9b5142ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12eff667.css",
+    "static/js/main.1f09975e.js"
+  ]
+}
