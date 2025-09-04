@@ -208,44 +208,44 @@ const workExperiences = {
         "Maintained and provided support for the PDMP (Prescription Drug Monitoring Program) reporting team"
       ]
     },
-    // {
-    //   role: "Software Engineer",
-    //   company: "Aperia",
-    //   companylogo: require("./assets/images/Aperia_logo.jpg"),
-    //   date: "July 2020 – Jun 2021",
-    //   website : "https://aperia.com/",
-    //   desc: "A software company committed to solving the complex challenges of the Payment industry.",
-    //   descBullets: [
-    //     "Led multiple teams to develop CRM systems",
-    //     "Implemented and deploy new code/updates to multiple environments",
-    //     "Meeting with client and offshore teams to discuss project progress",
-    //   ]
-    // },
-    // {
-    //   role: "Software Engineer",
-    //   company: "Walmart",
-    //   companylogo: require("./assets/images/Walmart_logo.jpg"),
-    //   date: "March 2020 – Jun 2020",
-    //   website: "https://www.walmart.com/",
-    //   desc: "A people-led, tech-powered omnichannel retailer dedicated to helping people save money and live better.",
-    //   descBullets: [
-    //     "Implemented new features and maintained current ABSS (Associate Background Screening System) application",
-    //     "Liaised with customers to gather requirements, design product structures, and provide ongoing support",
-    //   ]
-    // },
-    // {
-    //   role: "Senior Software Engineer",
-    //   company: "Niteco",
-    //   companylogo: require("./assets/images/niteco_logo.jpg"),
-    //   date: "Jun 2016 – April 2019",
-    //   website: "https://niteco.com/",
-    //   desc: "A digital company creates world-class digital experiences by focusing on the highest standards of technical delivery",
-    //   descBullets: [
-    //     "Built e-commerce website with Episerver platform",
-    //     "Built website with Sitecore 8.2 MVC",
-    //     "Resolved technical issues and conducted code reviews"
-    //   ]
-    // },
+    {
+      role: "Software Engineer",
+      company: "Aperia",
+      companylogo: require("./assets/images/Aperia_logo.jpg"),
+      date: "July 2020 – Jun 2021",
+      website : "https://aperia.com/",
+      desc: "A software company committed to solving the complex challenges of the Payment industry.",
+      descBullets: [
+        "Led multiple teams to develop CRM systems",
+        "Implemented and deploy new code/updates to multiple environments",
+        "Meeting with client and offshore teams to discuss project progress",
+      ]
+    },
+    {
+      role: "Software Engineer",
+      company: "Walmart",
+      companylogo: require("./assets/images/Walmart_logo.jpg"),
+      date: "March 2020 – Jun 2020",
+      website: "https://www.walmart.com/",
+      desc: "A people-led, tech-powered omnichannel retailer dedicated to helping people save money and live better.",
+      descBullets: [
+        "Implemented new features and maintained current ABSS (Associate Background Screening System) application",
+        "Liaised with customers to gather requirements, design product structures, and provide ongoing support",
+      ]
+    },
+    {
+      role: "Senior Software Engineer",
+      company: "Niteco",
+      companylogo: require("./assets/images/niteco_logo.jpg"),
+      date: "Jun 2016 – April 2019",
+      website: "https://niteco.com/",
+      desc: "A digital company creates world-class digital experiences by focusing on the highest standards of technical delivery",
+      descBullets: [
+        "Built e-commerce website with Episerver platform",
+        "Built website with Sitecore 8.2 MVC",
+        "Resolved technical issues and conducted code reviews"
+      ]
+    },
     // {
     //   role: "Senior Software Engineer",
     //   company: "ASW",
