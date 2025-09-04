@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 500 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Long Tran",
+  title: "Hi all, I'm Long Tran",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Advanced Software Engineer with over 13 years of experience in full-stack development across the entire SDLC. Skilled in design, analysis, and system planning, with a proven ability to lead teams and implement strategies that improve development efficiency, accuracy, and application performance. Expertise in modern tools and technologies including C#, Java, Angular, React, Node.js, jQuery, Web Forms, .NET Core, ASP.NET MVC Core, ASP.NET Web API, RESTful Services, Sitecore, Spring, Visual Studio Code, Git, Maven, MS SQL, and other frameworks and libraries"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,9 +33,9 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
+  github: "https://github.com/longthb3112",
+  linkedin: "https://www.linkedin.com/in/long-tranhuynhbao/",
+  gmail: "long.tranhuynhbao@gmail.com",
   gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/saad.pasta7",
   medium: "https://medium.com/@saadpasta",
@@ -46,36 +46,39 @@ const socialMediaLinks = {
 };
 
 // Skills Section
-
+//TODO: Update more from CV
 const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Design and implement AI-powered Visual Studio extensions and developer tools leveraging OpenAI, Gemini, and Claude to automate unit test generation, accelerate coding workflows, and boost developer productivity"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Explore and apply emerging AI technologies to enhance software development processes, improve automation, and deliver smarter solutions"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Develop highly interactive Frontend / User Interfaces with React, TypeScript, Kendo UI, and modern frameworks"
+    ),
+    emoji(
+      "⚡ Create Progressive Web Applications (PWA) and Single Page Applications (SPA) optimized for performance and scalability"
+    ),
+     emoji(
+      "⚡ Build and maintain enterprise-level applications using .NET Framework / .NET Core for healthcare, logistics, and workflow systems"
+    ),
+       emoji(
+      "⚡ Integration of third-party services such as Azure, FedEx, UPS, IronPDF, and prescription monitoring (PDMP) systems"
+    ),
+      emoji(
+      "⚡ Optimize SQL Server stored procedures, functions, and database schemas for performance and reliability"
+    ),
+     emoji(
+      "⚡ Provide end-to-end project support: requirement analysis, solution design, task estimation, implementation, debugging, and deployment"
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -101,21 +104,17 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "azure",
+      fontAwesomeClassname: "fab fa-microsoft"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "html-5",
+      fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "css3",
+      fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +125,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "Maharishi International University",
+      logo: require("./assets/images/maharishi_international_university_logo.jpg"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "May 2019 - Jun 2021",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+       
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "HUFLIT University",
+      logo: require("./assets/images/Huflit-logo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "September 2006 - September 2010",
+      desc: "",
+      descBullets: []
     }
   ]
 };
@@ -153,17 +151,42 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "C#/.NET CORE/.NET FRAMEWORK",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
+      Stack: "Java/Spring Boot",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Node.js",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+      Stack: "React",
+      progressPercentage: "80%"
+    },
+     {
+      Stack: "Angular",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Javascript/TypeScript",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "MS SQL Server",
+      progressPercentage: "80%"
+    },
+     {
+      Stack: "HTML",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "CSS",
+      progressPercentage: "70%"
+    },
+
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -174,30 +197,94 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Full Stack Software Engineer",
+      company: "AISHealthcare",
+      companylogo: require("./assets/images/AISHealthcare_logo.jpg"),
+      date: "June 2021 – Present",
+      desc: "A healthcare company committed to advancing quality and improving lives.",
+      website : "https://aiscaregroup.com/",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed and maintained the Lynx website, an internal system that supports order workflows, shipping, patients, prescribers, nurses, and more",
+        "Maintained and provided support for the PDMP (Prescription Drug Monitoring Program) reporting team"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "Aperia",
+      companylogo: require("./assets/images/Aperia_logo.jpg"),
+      date: "July 2020 – Jun 2021",
+      website : "https://aperia.com/",
+      desc: "A software company committed to solving the complex challenges of the Payment industry.",
+      descBullets: [
+        "Led multiple teams to develop CRM systems",
+        "Implemented and deploy new code/updates to multiple environments",
+        "Meeting with client and offshore teams to discuss project progress",
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      role: "Software Engineer",
+      company: "Walmart",
+      companylogo: require("./assets/images/Walmart_logo.jpg"),
+      date: "March 2020 – Jun 2020",
+      website: "https://www.walmart.com/",
+      desc: "A people-led, tech-powered omnichannel retailer dedicated to helping people save money and live better.",
+      descBullets: [
+        "Implemented new features and maintained current ABSS (Associate Background Screening System) application",
+        "Liaised with customers to gather requirements, design product structures, and provide ongoing support",
+      ]
+    },
+     {
+      role: "Senior Software Engineer",
+      company: "Niteco",
+      companylogo: require("./assets/images/niteco_logo.jpg"),
+      date: "Jun 2016 – April 2019",
+      website: "https://niteco.com/",
+      desc: "A digital company creates world-class digital experiences by focusing on the highest standards of technical delivery",
+      descBullets: [
+        "Built e-commerce website with Episerver platform",
+        "Built website with Sitecore 8.2 MVC",
+        "Resolved technical issues and conducted code reviews"
+      ]
+    },
+    {
+      role: "Senior Software Engineer",
+      company: "ASW",
+      companylogo: require("./assets/images/as_white_global_logo.jpg"),
+      date: "Mar 2015 – May 2016",
+      website: "https://aswhiteglobal.com/",
+      desc: " An Australian company specialising in international staffing solutions",
+      descBullets: [
+        "Supervised team members, delegated tasks, and supported problem-solving efforts",
+        "Designed project structures, estimated resource requirements, and provided customer support",
+        "Implemented web APIs to improve performance for payment systems"
+      ]
+    },
+    {
+      role: "Software Engineer",
+      company: "DXC Technology",
+      companylogo: require("./assets/images/DXC.webp"),
+      date: "Feb 2012 – Feb 2015",
+      website: "https://dxc.com/vn/en",
+      desc: "DXC Technology is a leading global provider of information technology services",
+      descBullets: [
+        "Estimated task requirements, delivered assignments on time, and resolved software defects to improve system stability",
+        "Implemented WCF services for financial reports",
+        "Built applications and reports"
+      ]
+    },
+    ,
+    {
+      role: "Software Engineer",
+      company: "Delivery VN",
+      companylogo: require("./assets/images/deliv_logo.jpg"),
+      date: "Oct 2010 – Feb 2012",
+      website: "https://www.deliv.co.jp/",
+      desc: "A japanese company helps consulting services combine strategy formulation, system delivery, and in-house support to transform companies' business models and develop new services",
+      descBullets: [
+        "Implemented recruiting website with ASP .NET Web Forms using three-layer design pattern",
+        "Supported testing and troubleshooting for improved performance and accuracy",
+      ]
+    },
   ]
 };
 
@@ -239,64 +326,54 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Certifications 🏆 "),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Azure Developer Associate",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Build end-to-end solutions in Microsoft Azure to create Azure Functions, implement and manage web apps, develop solutions utilizing Azure storage, and more",
+      image: require("./assets/images/azure-developer-associate.png"),
+      imageAlt: "Azure Developer Associate Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/?practice-assessment-type=certification"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Sitecore Developer",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "developing and updating a business's Sitecore experience platform and content management system",
+      image: require("./assets/images/sitecore.jpg"),
+      imageAlt: "Sitecore Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://www.sitecore.com/"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Microsoft Sharepoint developer 2010",
+      subtitle: "designs, develops, and customizes Microsoft SharePoint solutions, using programming languages like C# and JavaScript to build custom web parts, workflows, and applications",
+      image: require("./assets/images/sharepoint.png"),
+      imageAlt: "Sharepoint Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Certification", 
+        url: "https://support.microsoft.com/en-us/office/what-is-sharepoint-97b915e6-651b-43b2-827d-fb25777f446f"},
+       
       ]
     }
   ],
@@ -324,7 +401,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +420,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +433,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -365,7 +442,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -373,14 +450,14 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "long.tranhuynhbao@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer

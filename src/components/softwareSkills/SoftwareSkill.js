@@ -5,7 +5,7 @@ import {skillsSection} from "../../portfolio";
 export default function SoftwareSkill() {
   return (
     <div>
-      <div className="software-skills-main-div">
+      {/* <div className="software-skills-main-div">
         <ul className="dev-icons">
           {skillsSection.softwareSkills.map((skills, i) => {
             return (
@@ -20,7 +20,7 @@ export default function SoftwareSkill() {
             );
           })}
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }

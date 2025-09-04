@@ -22,27 +22,27 @@ export default function Blogs() {
       : NaN;
   }
   useEffect(() => {
-    if (blogSection.displayMediumBlogs === "true") {
-      const getProfileData = () => {
-        fetch("/blogs.json")
-          .then(result => {
-            if (result.ok) {
-              return result.json();
-            }
-          })
-          .then(response => {
-            setMediumBlogsFunction(response.items);
-          })
-          .catch(function (error) {
-            console.error(
-              `${error} (because of this error Blogs section could not be displayed. Blogs section has reverted to default)`
-            );
-            setMediumBlogsFunction("Error");
-            blogSection.displayMediumBlogs = "false";
-          });
-      };
-      getProfileData();
-    }
+    // if (blogSection.displayMediumBlogs === "true") {
+    //   const getProfileData = () => {
+    //     fetch("/blogs.json")
+    //       .then(result => {
+    //         if (result.ok) {
+    //           return result.json();
+    //         }
+    //       })
+    //       .then(response => {
+    //         setMediumBlogsFunction(response.items);
+    //       })
+    //       .catch(function (error) {
+    //         console.error(
+    //           `${error} (because of this error Blogs section could not be displayed. Blogs section has reverted to default)`
+    //         );
+    //         setMediumBlogsFunction("Error");
+    //         blogSection.displayMediumBlogs = "false";
+    //       });
+    //   };
+    //   getProfileData();
+    // }
   }, []);
   if (!blogSection.display) {
     return null;
