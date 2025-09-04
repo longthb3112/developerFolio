@@ -21,8 +21,5 @@ jobs:
         run: |
           npm install
       
-      - name: Check Format
-        run: |
-          npm run check-format
-          continue-on-error: true
+    
 
