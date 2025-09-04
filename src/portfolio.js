@@ -275,7 +275,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Delivery VN",
-      companylogo: require("./assets/images/deliv_logo.jpg"),
+      companylogo: require("./assets/images/DXC.webp"),
       date: "Oct 2010 – Feb 2012",
       website: "https://www.deliv.co.jp/",
       desc: "A japanese company helps consulting services combine strategy formulation, system delivery, and in-house support to transform companies' business models and develop new services",
