@@ -233,7 +233,7 @@ const workExperiences = {
         "Liaised with customers to gather requirements, design product structures, and provide ongoing support",
       ]
     },
-     {
+    {
       role: "Senior Software Engineer",
       company: "Niteco",
       companylogo: require("./assets/images/niteco_logo.jpg"),
@@ -272,7 +272,6 @@ const workExperiences = {
         "Built applications and reports"
       ]
     },
-    ,
     {
       role: "Software Engineer",
       company: "Delivery VN",

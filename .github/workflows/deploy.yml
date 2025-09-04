@@ -28,10 +28,6 @@ jobs:
 
       - name: Update npm 🚀
         run: npm install -g npm@latest
-      - name: Format and Fix ESLint
-        run: |
-          npx prettier --write .
-          npx eslint src --fix
       - name: Install and Build 🔧 # Build the Project
         run: |
           npm install
