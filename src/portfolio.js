@@ -246,19 +246,19 @@ const workExperiences = {
         "Resolved technical issues and conducted code reviews"
       ]
     },
-    // {
-    //   role: "Senior Software Engineer",
-    //   company: "ASW",
-    //   companylogo: require("./assets/images/as_white_global_logo.jpg"),
-    //   date: "Mar 2015 – May 2016",
-    //   website: "https://aswhiteglobal.com/",
-    //   desc: " An Australian company specialising in international staffing solutions",
-    //   descBullets: [
-    //     "Supervised team members, delegated tasks, and supported problem-solving efforts",
-    //     "Designed project structures, estimated resource requirements, and provided customer support",
-    //     "Implemented web APIs to improve performance for payment systems"
-    //   ]
-    // },
+    {
+      role: "Senior Software Engineer",
+      company: "ASW",
+      companylogo: require("./assets/images/as_white_global_logo.jpg"),
+      date: "Mar 2015 – May 2016",
+      website: "https://aswhiteglobal.com/",
+      desc: " An Australian company specialising in international staffing solutions",
+      descBullets: [
+        "Supervised team members, delegated tasks, and supported problem-solving efforts",
+        "Designed project structures, estimated resource requirements, and provided customer support",
+        "Implemented web APIs to improve performance for payment systems"
+      ]
+    },
     // {
     //   role: "Software Engineer",
     //   company: "DXC Technology",
