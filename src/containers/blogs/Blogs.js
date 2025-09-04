@@ -6,7 +6,7 @@ import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 export default function Blogs() {
   const {isDark} = useContext(StyleContext);
-  const [mediumBlogs, setMediumBlogs] = useState([]);
+  const [mediumBlogs] = useState([]);
   // function setMediumBlogsFunction(array) {
   //   setMediumBlogs(array);
   // }
