@@ -208,82 +208,82 @@ const workExperiences = {
         "Maintained and provided support for the PDMP (Prescription Drug Monitoring Program) reporting team"
       ]
     },
-    {
-      role: "Software Engineer",
-      company: "Aperia",
-      companylogo: require("./assets/images/Aperia_logo.jpg"),
-      date: "July 2020 – Jun 2021",
-      website : "https://aperia.com/",
-      desc: "A software company committed to solving the complex challenges of the Payment industry.",
-      descBullets: [
-        "Led multiple teams to develop CRM systems",
-        "Implemented and deploy new code/updates to multiple environments",
-        "Meeting with client and offshore teams to discuss project progress",
-      ]
-    },
-    {
-      role: "Software Engineer",
-      company: "Walmart",
-      companylogo: require("./assets/images/Walmart_logo.jpg"),
-      date: "March 2020 – Jun 2020",
-      website: "https://www.walmart.com/",
-      desc: "A people-led, tech-powered omnichannel retailer dedicated to helping people save money and live better.",
-      descBullets: [
-        "Implemented new features and maintained current ABSS (Associate Background Screening System) application",
-        "Liaised with customers to gather requirements, design product structures, and provide ongoing support",
-      ]
-    },
-    {
-      role: "Senior Software Engineer",
-      company: "Niteco",
-      companylogo: require("./assets/images/niteco_logo.jpg"),
-      date: "Jun 2016 – April 2019",
-      website: "https://niteco.com/",
-      desc: "A digital company creates world-class digital experiences by focusing on the highest standards of technical delivery",
-      descBullets: [
-        "Built e-commerce website with Episerver platform",
-        "Built website with Sitecore 8.2 MVC",
-        "Resolved technical issues and conducted code reviews"
-      ]
-    },
-    {
-      role: "Senior Software Engineer",
-      company: "ASW",
-      companylogo: require("./assets/images/as_white_global_logo.jpg"),
-      date: "Mar 2015 – May 2016",
-      website: "https://aswhiteglobal.com/",
-      desc: " An Australian company specialising in international staffing solutions",
-      descBullets: [
-        "Supervised team members, delegated tasks, and supported problem-solving efforts",
-        "Designed project structures, estimated resource requirements, and provided customer support",
-        "Implemented web APIs to improve performance for payment systems"
-      ]
-    },
-    {
-      role: "Software Engineer",
-      company: "DXC Technology",
-      companylogo: require("./assets/images/DXC.webp"),
-      date: "Feb 2012 – Feb 2015",
-      website: "https://dxc.com/vn/en",
-      desc: "DXC Technology is a leading global provider of information technology services",
-      descBullets: [
-        "Estimated task requirements, delivered assignments on time, and resolved software defects to improve system stability",
-        "Implemented WCF services for financial reports",
-        "Built applications and reports"
-      ]
-    },
-    {
-      role: "Software Engineer",
-      company: "Delivery VN",
-      companylogo: require("./assets/images/deliv_logo.jpg"),
-      date: "Oct 2010 – Feb 2012",
-      website: "https://www.deliv.co.jp/",
-      desc: "A japanese company helps consulting services combine strategy formulation, system delivery, and in-house support to transform companies' business models and develop new services",
-      descBullets: [
-        "Implemented recruiting website with ASP .NET Web Forms using three-layer design pattern",
-        "Supported testing and troubleshooting for improved performance and accuracy",
-      ]
-    },
+    // {
+    //   role: "Software Engineer",
+    //   company: "Aperia",
+    //   companylogo: require("./assets/images/Aperia_logo.jpg"),
+    //   date: "July 2020 – Jun 2021",
+    //   website : "https://aperia.com/",
+    //   desc: "A software company committed to solving the complex challenges of the Payment industry.",
+    //   descBullets: [
+    //     "Led multiple teams to develop CRM systems",
+    //     "Implemented and deploy new code/updates to multiple environments",
+    //     "Meeting with client and offshore teams to discuss project progress",
+    //   ]
+    // },
+    // {
+    //   role: "Software Engineer",
+    //   company: "Walmart",
+    //   companylogo: require("./assets/images/Walmart_logo.jpg"),
+    //   date: "March 2020 – Jun 2020",
+    //   website: "https://www.walmart.com/",
+    //   desc: "A people-led, tech-powered omnichannel retailer dedicated to helping people save money and live better.",
+    //   descBullets: [
+    //     "Implemented new features and maintained current ABSS (Associate Background Screening System) application",
+    //     "Liaised with customers to gather requirements, design product structures, and provide ongoing support",
+    //   ]
+    // },
+    // {
+    //   role: "Senior Software Engineer",
+    //   company: "Niteco",
+    //   companylogo: require("./assets/images/niteco_logo.jpg"),
+    //   date: "Jun 2016 – April 2019",
+    //   website: "https://niteco.com/",
+    //   desc: "A digital company creates world-class digital experiences by focusing on the highest standards of technical delivery",
+    //   descBullets: [
+    //     "Built e-commerce website with Episerver platform",
+    //     "Built website with Sitecore 8.2 MVC",
+    //     "Resolved technical issues and conducted code reviews"
+    //   ]
+    // },
+    // {
+    //   role: "Senior Software Engineer",
+    //   company: "ASW",
+    //   companylogo: require("./assets/images/as_white_global_logo.jpg"),
+    //   date: "Mar 2015 – May 2016",
+    //   website: "https://aswhiteglobal.com/",
+    //   desc: " An Australian company specialising in international staffing solutions",
+    //   descBullets: [
+    //     "Supervised team members, delegated tasks, and supported problem-solving efforts",
+    //     "Designed project structures, estimated resource requirements, and provided customer support",
+    //     "Implemented web APIs to improve performance for payment systems"
+    //   ]
+    // },
+    // {
+    //   role: "Software Engineer",
+    //   company: "DXC Technology",
+    //   companylogo: require("./assets/images/DXC.webp"),
+    //   date: "Feb 2012 – Feb 2015",
+    //   website: "https://dxc.com/vn/en",
+    //   desc: "DXC Technology is a leading global provider of information technology services",
+    //   descBullets: [
+    //     "Estimated task requirements, delivered assignments on time, and resolved software defects to improve system stability",
+    //     "Implemented WCF services for financial reports",
+    //     "Built applications and reports"
+    //   ]
+    // },
+    // {
+    //   role: "Software Engineer",
+    //   company: "Delivery VN",
+    //   companylogo: require("./assets/images/deliv_logo.jpg"),
+    //   date: "Oct 2010 – Feb 2012",
+    //   website: "https://www.deliv.co.jp/",
+    //   desc: "A japanese company helps consulting services combine strategy formulation, system delivery, and in-house support to transform companies' business models and develop new services",
+    //   descBullets: [
+    //     "Implemented recruiting website with ASP .NET Web Forms using three-layer design pattern",
+    //     "Supported testing and troubleshooting for improved performance and accuracy",
+    //   ]
+    // },
   ]
 };
 
