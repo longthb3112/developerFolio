@@ -35,3 +35,10 @@
     text-align: center;
   }
 }
+
+@media (max-width: 480px) {
+  .experience-cards-div {
+    grid-template-columns: 1fr; /* single column for very small screens */
+    gap: 0.5rem;
+  }
+}
