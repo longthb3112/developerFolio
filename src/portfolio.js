@@ -224,7 +224,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Walmart",
-      companylogo: require("./assets/images/Walmart_logo.jpg"),
+      companylogo: require("./assets/images/walmart-icon.png"),
       date: "March 2020 – Jun 2020",
       website: "https://www.walmart.com/",
       desc: "A people-led, tech-powered omnichannel retailer dedicated to helping people save money and live better.",

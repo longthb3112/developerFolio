@@ -10,7 +10,6 @@ export default function WorkExperience() {
   if (workExperiences.display) {
     return (
       <div id="experience">
-
           <div className="experience-container" id="workExperience">
             <div>
               <h1 className="experience-heading">Experiences</h1>
@@ -34,8 +33,7 @@ export default function WorkExperience() {
                 })}
               </div>
             </div>
-          </div>
-     
+          </div>   
       </div>
     );
  }
