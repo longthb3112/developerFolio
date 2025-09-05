@@ -7,7 +7,7 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function WorkExperience() {
   const {isDark} = useContext(StyleContext);
-//  if (workExperiences.display) {
+  if (workExperiences.display) {
     return (
       <div id="experience">
 
@@ -38,6 +38,6 @@ export default function WorkExperience() {
      
       </div>
     );
-// }
-//  return null;
+ }
+  return null;
 }
