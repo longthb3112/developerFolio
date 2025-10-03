@@ -23,7 +23,7 @@ const greeting = {
   username: "Long Tran",
   title: "Hi all, I'm Long Tran",
   subTitle: emoji(
-    "Advanced Software Engineer with over 13 years of experience in full-stack development across the entire SDLC. Skilled in design, analysis, and system planning, with a proven ability to lead teams and implement strategies that improve development efficiency, accuracy, and application performance. Expertise in modern tools and technologies including C#, Java, Angular, React, Node.js, jQuery, Web Forms, .NET Core, ASP.NET MVC Core, ASP.NET Web API, RESTful Services, Sitecore, Spring, Visual Studio Code, Git, Maven, MS SQL, and other frameworks and libraries"
+    "Enthusiastic Software Engineer with over 13 years of experience in full-stack development across the entire SDLC. Skilled in design, analysis, and system planning, with a proven ability to lead teams and implement strategies that improve development efficiency, accuracy, and application performance. Expertise in modern tools and technologies including C#, Java, Angular, React, Node.js, jQuery, Web Forms, .NET Core, ASP.NET MVC Core, ASP.NET Web API, RESTful Services, Sitecore, Spring, AI, Azure, Visual Studio Code, Git, Maven, MS SQL, and other frameworks and libraries"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
